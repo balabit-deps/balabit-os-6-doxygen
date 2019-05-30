@@ -1,3 +1,12 @@
+doxygen (1.8.11-1ubuntu0.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Cross-site scripting/iframe injection
+    - debian/patches/CVE-2016-10245.patch: correctly escape
+      user supplied data in templates/html/search_opensearch.php.
+    - CVE-2016-10245
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Thu, 30 May 2019 12:53:01 -0300
+
 doxygen (1.8.11-1) unstable; urgency=medium
 
   * Upload to unstable.
